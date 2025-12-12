@@ -10,3 +10,7 @@ Detecta columnas de fecha y métricas comunes (**ventas**, **tráfico**, **perfo
   - Métricas (`ventas`, `tráfico`, `performance`)
 - Gráfico automatizado con Matplotlib.
 - Interfaz simple y portable con Gradio.
+
+## ▶️ Instalación
+```bash
+pip install -r requirements.txt
