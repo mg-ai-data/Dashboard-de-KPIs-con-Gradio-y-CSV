@@ -1,2 +1,12 @@
-# Dashboard-de-KPIs-con-Gradio-y-CSV
-Aplicación en Gradio que genera un dashboard interactivo a partir de un CSV real. Detecta automáticamente columnas de fecha y métricas (ventas, tráfico, performance) y produce un gráfico de KPIs listo para análisis rápido.
+# 📊 Dashboard de KPIs con Gradio
+
+Este proyecto permite subir un archivo CSV y visualizar un dashboard de KPIs de manera automática.  
+Detecta columnas de fecha y métricas comunes (**ventas**, **tráfico**, **performance**) y genera un gráfico interactivo.
+
+## 🚀 Funcionalidades
+- Subida de CSV vía interfaz.
+- Detección automática de columnas:
+  - Fecha (`fecha`, `date`)
+  - Métricas (`ventas`, `tráfico`, `performance`)
+- Gráfico automatizado con Matplotlib.
+- Interfaz simple y portable con Gradio.
